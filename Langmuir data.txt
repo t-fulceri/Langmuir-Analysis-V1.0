@@ -1,0 +1,11 @@
+\\pc-e5-ws-2\D\Ilya\04112016\500
+
+matlab:
+h5info('meas_0766.h5')
+
+data = h5read('meas_0267.h5','/dataset');
+data = data';
+plot(data)
+
+SVN mit TortoiseSVNclient: https://subversion.ipp-hgw.mpg.de/svn/Vineta/matlab/
+\diagnostic\LangmuirProbe\Langmuir als beispiel
